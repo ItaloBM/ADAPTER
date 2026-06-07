@@ -1,4 +1,6 @@
 package padroesestruturais.adapter;
 
-public class JogadorEuropeu {
+public interface JogadorEuropeu {
+    String getPlayerName();
+    double getSpeedMph();
 }
